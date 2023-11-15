@@ -1,7 +1,7 @@
 package main
 
-import "interview/algorithmn/greedy_algo"
+import "interview/algorithmn/double_pointer"
 
 func main() {
-	println(greedy_algo.Candy([]int{1, 3, 4, 5, 2}))
+	println(double_pointer.MinWindow("ADOBECODEBANC", "ABC"))
 }
