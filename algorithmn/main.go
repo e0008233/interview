@@ -1,7 +1,7 @@
 package main
 
-import "interview/algorithmn/double_pointer"
+import "interview/algorithmn/binary_search"
 
 func main() {
-	println(double_pointer.MinWindow("ADOBECODEBANC", "ABC"))
+	println(binary_search.Search([]int{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1}, 2))
 }
