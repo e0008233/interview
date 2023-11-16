@@ -1,6 +1,7 @@
-package binary_search
+package search
 
-func Search(nums []int, target int) bool {
+// binary search
+func search(nums []int, target int) bool {
 	left := 0
 	right := len(nums) - 1
 

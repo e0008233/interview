@@ -1,7 +1,9 @@
 package main
 
-import "interview/algorithmn/binary_search"
+import (
+	"interview/algorithmn/sorting"
+)
 
 func main() {
-	println(binary_search.Search([]int{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1}, 2))
+	println(sorting.TopKFrequent([]int{3, 0, 1, 0}, 1))
 }

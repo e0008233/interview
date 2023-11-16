@@ -1,5 +1,6 @@
-package binary_search
+package search
 
+// binary search
 func mySqrt(x int) int {
 	if x == 0 {
 		return 0

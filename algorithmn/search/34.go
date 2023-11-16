@@ -1,6 +1,7 @@
-package binary_search
+package search
 
-func SearchRange(nums []int, target int) []int {
+// binary search
+func searchRange(nums []int, target int) []int {
 	if len(nums) == 0 {
 		return []int{-1, -1}
 	}
