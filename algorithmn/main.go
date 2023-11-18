@@ -1,9 +1,9 @@
 package main
 
 import (
-	"interview/algorithmn/sorting"
+	"interview/algorithmn/search"
 )
 
 func main() {
-	println(sorting.TopKFrequent([]int{3, 0, 1, 0}, 1))
+	println(search.FindCircleNum([][]int{{1, 0, 0, 1}, {0, 1, 1, 0}, {0, 1, 1, 1}, {1, 0, 1, 1}}))
 }
