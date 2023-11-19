@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	println(search.FindCircleNum([][]int{{1, 0, 0, 1}, {0, 1, 1, 0}, {0, 1, 1, 1}, {1, 0, 1, 1}}))
+	println(len(search.Permute([]int{0, 1})))
 }
