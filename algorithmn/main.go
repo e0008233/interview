@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	println(len(search.Permute([]int{0, 1})))
+	println(search.ShortestBridge([][]int{{0, 1, 0}, {0, 0, 0}, {0, 0, 1}}))
 }
