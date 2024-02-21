@@ -7,15 +7,17 @@ Functional Feature
 
 Assumption: 
 1. 100M DAU, 5 query/user, 5k QPS, peak could be doubled
-2. 200M different businesses
+2. 200M different businesses, 200M * 1KB = 200GB
 
 Non Functional Feature
 1. Latency should be low
 2. Highly available during the peak hours
-![img.png](img.png)
+
+
 High level design
-1. API design
-
+1. API design 
+   - Get /v1/search/nearby
+   - CRUD for /businessID
 2. Data schema
-
+   - Geo hash table
 3. High level design diagram
