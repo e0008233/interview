@@ -2,11 +2,13 @@ package main
 
 import (
 	"fmt"
-	"interview/algorithmn/questions/back_track"
 )
 
 func main() {
+	temp := make([]int, 4)
+	temp2 := append(temp, 4)
 
-	fmt.Println(back_track.FindItinerary([][]string{{"JFK", "KUL"}, {"JFK", "NRT"}, {"NRT", "JFK"}}))
+	fmt.Println(temp)
+	fmt.Println(temp2)
 
 }
