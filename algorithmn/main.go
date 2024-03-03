@@ -2,13 +2,12 @@ package main
 
 import (
 	"fmt"
-	"interview/algorithmn/questions/trie"
+	"interview/algorithmn/questions/graph"
 )
 
 func main() {
-	obj := trie.Constructor()
-	obj.Insert("apple")
-	fmt.Println(obj)
+
+	fmt.Println(graph.FindOrder(2, [][]int{{1, 0}}))
 }
 
 /**
