@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"interview/algorithmn/questions/trie"
+	"interview/algorithmn/questions/graph"
 )
 
 func main() {
-	obj := trie.Constructor()
-	obj.Insert("apple")
-	fmt.Println(obj)
+
+	fmt.Println(graph.FindRedundantConnection([][]int{{1, 2}, {1, 3}, {2, 3}}))
+
 }
 
 /**
