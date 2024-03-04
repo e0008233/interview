@@ -1,0 +1,1 @@
+1. Main concepts: https://www.youtube.com/watch?v=i53Gi_K3o7I
