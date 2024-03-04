@@ -7,7 +7,8 @@ import (
 
 func main() {
 
-	fmt.Println(graph.FindShortestCycle(7, [][]int{{0, 1}, {1, 2}, {2, 0}, {3, 4}, {4, 5}, {5, 6}, {6, 3}}))
+	fmt.Println(graph.MinCostConnectPoints([][]int{{0, 1}, {0, 2}}))
+	//fmt.Println(graph.MinCostConnectPoints([][]int{{0, 1}, {1, 2}, {2, 0}, {3, 4}, {4, 5}, {5, 6}, {6, 3}}))
 
 }
 
