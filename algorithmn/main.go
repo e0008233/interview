@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	fmt.Println(graph.FindRedundantConnection([][]int{{1, 2}, {1, 3}, {2, 3}}))
+	fmt.Println(graph.NetworkDelayTime([][]int{{1, 2, 1}, {2, 3, 2}, {1, 3, 4}}, 3, 1))
 
 }
 
